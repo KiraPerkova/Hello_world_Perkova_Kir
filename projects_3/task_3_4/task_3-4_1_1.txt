@@ -1,0 +1,3 @@
+bin   etc         initrd.img.old  lost+found   run   sys   var
+boot  home        lib             media        proc  sbin  vmlinuz
+dev   initrd.img  lib64           mnt          root  usr   vmlinuz.old
