@@ -1,10 +1,7 @@
-a = [1, 2, 3]
-b = [4, 5, 6]
-n = len(a)
+sum_even = 0
 
-scalar = 0
+for i in range(1, 16):
+    if i % 2 == 0:
+        sum_even = sum_even + i
 
-for i in range(n):
-    scalar = scalar + a[i] * b[i]
-
-print("Скалярное произведение двух векторов:", scalar)
+print("Сумма чётных чисел:", sum_even)
